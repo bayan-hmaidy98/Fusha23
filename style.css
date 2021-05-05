@@ -2,11 +2,9 @@ body{
   background-color: #edff8f;
 }
 header img {
-<<<<<<< HEAD
+
   width: 1600px;
-=======
-  width: 1500px;
->>>>>>> 7e91486ff40522d8f501785e51e1b862ce9ab09e
+
   height: 700px;
 }
 header{
@@ -41,12 +39,5 @@ footer{
     background-color: #FFFFD9;
     color: white;
     margin-bottom: 0;
-<<<<<<< HEAD
-}
-button {
 
-onclick: myFunction();
 
-=======
->>>>>>> 7e91486ff40522d8f501785e51e1b862ce9ab09e
-}
