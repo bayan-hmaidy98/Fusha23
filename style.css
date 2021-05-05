@@ -1,0 +1,45 @@
+body{
+  background-color: #edff8f;
+}
+header img {
+  width: 1600px;
+  height: 700px;
+}
+header{
+    text-align: left;
+}
+header nav ul li {
+  display: inline-block;
+  margin: 10px;
+  color: #9e60c5;
+}
+header nav ul li:hover {
+  color: #82b6ff;
+}
+nav{
+  background-color: #82b6ff;
+}
+main  img {
+  width: 100%;
+  height: 100%;
+  
+}
+
+main p {
+  color: #9e60c5;
+}
+main h1 {
+  color: #82b6ff;
+ 
+}
+footer{
+    text-align: center;
+    background-color: #FFFFD9;
+    color: white;
+    margin-bottom: 0;
+}
+button {
+
+onclick: myFunction();
+
+}
