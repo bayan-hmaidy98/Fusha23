@@ -1,3 +1,13 @@
+
+
+function visitorWelcoming ()
+  {
+    var userName = prompt('What is your name?')
+
+alert ('Hello' + userName)
+return userName
+  }
+  visitorWelcoming ()
 var userAnswer = prompt('Are you interested in children enrichment?')
 
 if (userAnswer === 'yes')
@@ -9,8 +19,10 @@ else {
   document.write ('Hope you changed your mind.')
 }
 var userIdentity = prompt('Are you a parent, a child or neither?')
+
   
-  while (!(userIdentity == 'child' || userIdentity == 'parent' || userIdentity == 'neither' ))
+  while (!(userIdentity == 'child' || userIdentity == 'parent' || 
+  userIdentity == 'neither' ))
   {
     userIdentity = prompt('Try again please!')
   }
@@ -31,4 +43,6 @@ for (var x = 1; x <= numberOfpictures; x++)
  document.write (image)
  document.write ('You have asked for ' +numberOfpictures+ ' suggestions.') 
   console.log(userAnswer)
+
+
   
